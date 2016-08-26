@@ -20,7 +20,7 @@ export default (compiler, opts) => {
 
   return async (ctx, next) => { // eslint-disable-line
     await middleware(ctx);
-    next();
+    await next();
   }
 }
 
