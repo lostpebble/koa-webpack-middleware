@@ -19,7 +19,8 @@
   "scripts": {
     "lint": "standard | snazzy",
     "test": "npm run lint",
-    "build": "npm run lint && babel -d lib/ middleware/",
+    "check": "npm run lint",
+    "build": "babel -d lib/ middleware/",
     "prepublish": "npm run build"
   },
   "repository": {
