@@ -18,7 +18,6 @@
   ],
   "scripts": {
     "lint": "standard | snazzy",
-    "preinstall": "babel -d lib/ middleware/",
     "test": "npm run lint",
     "build": "npm run lint && babel -d lib/ middleware/",
     "prepublish": "npm run build"
